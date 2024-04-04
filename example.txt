@@ -1,0 +1,43 @@
+// example output from the terminal 
+[iesselbu@wasp OS]$ ./producer & ./consumer
+[1] 1624378
+producer produced 37
+producer produced 95
+consumer removed 37
+consumer removed 95
+producer produced 71
+producer produced 79
+consumer removed 71
+consumer removed 79
+producer produced 70
+producer produced 43
+consumer removed 70
+consumer removed 43
+producer produced 4
+producer produced 11
+consumer removed 4
+consumer removed 11
+producer produced 96
+producer produced 20
+consumer removed 96
+consumer removed 20
+producer produced 43
+producer produced 44
+consumer removed 43
+consumer removed 44
+producer produced 38
+producer produced 5
+consumer removed 38
+consumer removed 5
+producer produced 95
+producer produced 43
+consumer removed 95
+consumer removed 43
+producer produced 30
+producer produced 56
+consumer removed 30
+consumer removed 56
+producer produced 40
+producer produced 14
+consumer removed 40
+consumer removed 14

@@ -1,3 +1,6 @@
+// Ian Esselburn
+// OS Project 1 
+// table.h
 #ifndef OS_PROJECT_ONE_
 #define OS_PROJECT_ONE_
 
@@ -12,11 +15,12 @@
 #include <time.h>
 
 int MAX_TABLE_SIZE = 2;
+int iterations = 10;
 
 struct table {
-    int shared_buffer[2];
     sem_t empty_spots;
     sem_t filled_spots;
+    int shared_buffer[2];
 };
 
 #endif

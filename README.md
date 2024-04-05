@@ -5,5 +5,7 @@ My submission includes the table.h, producer.h, consumer.h, and an example.txt o
 Use the following to compile and run the program.
 
 gcc producer.c -pthread -lrt -o producer
+
 gcc consumer.c -pthread -lrt -o consumer
+
 ./producer & ./consumer
